@@ -4,7 +4,7 @@ import sun.misc.Contended;
 
 /**
  * jdk8提供了@Contended注解,使成员变量不与其它成员变量在同一个缓存行,
- * 解决伪共享问题的.
+ * 解决伪共享问题.
  */
 public class ContendedDemo {
     @Contended
