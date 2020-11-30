@@ -43,6 +43,7 @@ public class WriteCombining {
     private static long runCaseTwo() {
         long start = System.currentTimeMillis();
         int i=ITERATIONS;
+        //有两个循环,每次循环有刚好有4次写操作
         while (--i!=0){
             int slot=i & MASK;
             byte b=(byte)i;
